@@ -1,0 +1,26 @@
+{
+  "name": "minecraft-server-properties",
+  "version": "0.0.0",
+  "description": "Parse and stringify the Minecraft server.properties file format",
+  "author": "Dominic Barnes <dominic@dbarnes.info>",
+  "license": "MIT",
+  "main": "lib/properties.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "minecraft",
+    "server",
+    "properties",
+    "parse",
+    "stringify"
+  ],
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.8.1"
+  }
+}
