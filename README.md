@@ -28,6 +28,6 @@ Install dependencies
 
 Run tests
 
-    ./node_modules/.bin/mocha
+    npm test
 
 Submit patches as Github PRs
