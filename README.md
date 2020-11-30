@@ -1,5 +1,8 @@
 # node-minecraft-server-properties
 
+[![Build Status](https://travis-ci.org/strugee/node-minecraft-server-properties.svg?branch=dev)](https://travis-ci.org/strugee/node-minecraft-server-properties)
+[![Coverage Status](https://coveralls.io/repos/github/strugee/node-minecraft-server-properties/badge.svg?branch=dev)](https://coveralls.io/github/strugee/node-minecraft-server-properties?branch=dev)
+
 An API for parsing and stringifying the Minecraft server.properties file format
 
 ## Installation
