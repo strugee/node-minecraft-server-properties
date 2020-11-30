@@ -2,6 +2,9 @@ var properties = require("../lib/properties"),
     parse      = properties.parse,
     stringify  = properties.stringify;
 
+/* jshint expr: true */
+/* globals describe, it, before, beforeEach, after, afterEach */ // jshint ignore:line
+
 describe("properties", function () {
     describe(".parse()", function () {
         it("should ignore comments", function () {
