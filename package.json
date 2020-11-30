@@ -1,6 +1,6 @@
 {
   "name": "minecraft-server-properties",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parse and stringify the Minecraft server.properties file format",
   "author": "Dominic Barnes <dominic@dbarnes.info>",
   "license": "MIT",
