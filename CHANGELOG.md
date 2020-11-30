@@ -11,6 +11,7 @@
 ### Changed
 
 * [strugee/node-minecraft-server-properties](https://github.com/strugee/node-minecraft-server-properties) is now the repo of record; see [dominicbarnes/node-minecraft-server-properties#1](https://github.com/dominicbarnes/node-minecraft-server-properties/pull/1)
+* Everything runs in strict mode
 * Upgrade dev dependencies
 * Misc. cleanups
 

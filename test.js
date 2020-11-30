@@ -1,3 +1,5 @@
+"use strict";
+
 var properties = require("./index.js"),
     parse      = properties.parse,
     stringify  = properties.stringify;

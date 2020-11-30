@@ -1,3 +1,5 @@
+"use strict";
+
 function parseValue(val) {
     if (val === "") return null;
 
