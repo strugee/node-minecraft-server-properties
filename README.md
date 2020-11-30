@@ -31,3 +31,11 @@ Run tests
     npm test
 
 Submit patches as Github PRs
+
+## Authors
+
+Written by Dominic Barnes <dominic@dbarnes.info>, now maintained by AJ Jordan <alex@strugee.net>
+
+## License
+
+MIT license
