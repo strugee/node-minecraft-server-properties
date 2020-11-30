@@ -9,7 +9,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc -r lcov -r text mocha"
+    "test": "npm run lint && nyc -r lcov -r text mocha",
+    "lint": "jshint lib/* test/*"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   ],
   "devDependencies": {
     "coveralls": "^3.1.0",
+    "jshint": "^2.12.0",
     "mocha": "^7.1.1",
     "nyc": "^15.1.0",
     "should": "^13.2.3"
