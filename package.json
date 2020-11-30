@@ -4,13 +4,12 @@
   "description": "Parse and stringify the Minecraft server.properties file format",
   "author": "Dominic Barnes <dominic@dbarnes.info>",
   "license": "MIT",
-  "main": "lib/properties.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "npm run lint && nyc -r lcov -r text mocha",
-    "lint": "jshint lib/* test/*"
+    "test": "npm run lint && nyc -r lcov -r text mocha test.js",
+    "lint": "jshint *.js"
   },
   "repository": {
     "type": "git",
